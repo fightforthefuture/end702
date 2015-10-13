@@ -1,0 +1,205 @@
+@main_color: #00aeff;
+
+
+
+#banner {
+    color: @white;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: @darkBlue;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 5px;
+
+    h1 {
+        width: 100%;
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+        font-weight: 400;
+        font-size: 20.5px;
+        padding: 0px;
+        margin: 0px;
+
+        strong {
+            font-weight: 800;
+        }
+    }
+    h2 {
+        width: 100%;
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+        font-weight: 500;
+        font-size: 38px;
+        line-height: 24px;
+        padding: 0px;
+        margin: 0px;
+    }
+    h3 {
+        width: 100%;
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+        font-weight: 400;
+        font-size: 24.5px;
+        line-height: 36px;
+        padding: 0px;
+        margin: 0px;
+    }
+    footer {
+
+
+        display: inline-block;
+        box-sizing: border-box;
+
+        padding: 1px 10px 0px 10px;
+        border-radius: 30px;
+        background: #01adff;
+        font-weight: 500;
+        margin-top: 1px;
+
+
+
+        h4 {
+            padding: 0px;
+            margin: 0px;
+
+            width: 100%;
+            text-align: center;
+            text-transform: uppercase;
+            color: white;
+            font-weight: 800;
+            font-size: 23px;
+        }
+
+    }
+
+    #loader {
+        position: absolute;
+        left: 0px;
+        top: 1px;
+        width: 79px;
+        height: 79px;
+        box-sizing: border-box;
+        padding: 7px;
+        border-radius: 100px;
+        background: #0f1620;
+    }
+
+    header {
+        position: absolute;
+        left: 82px;
+        top: 5px;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: .5px;
+        opacity: 0.9;
+        white-space: nowrap;
+    }
+
+    #digits_background {
+        position: absolute;
+        left: 82px;
+        top: 7px;
+        font-size: 46px;
+        font-family: "Digital7Mono";
+        opacity: .2;
+    }
+    #remaining {
+        position: absolute;
+        left: 82px;
+        top: 7px;
+        font-size: 46px;
+        font-family: "Digital7Mono";
+        text-shadow: 0px 0px 10px @main_color;
+
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+    }
+    .label {
+        position: absolute;
+        top: 64px;
+        font-size: 10px;
+        font-weight: 500;
+        text-transform: uppercase;
+        opacity: 0.9;
+        font-family: "Montserrat-Regular", sans-serif;
+
+        &#days {
+            left: 91px;
+        }
+        &#hours {
+            left: 151px;
+        }
+        &#min {
+            left: 218px;
+        }
+        &#sec {
+            left: 281px;
+        }
+    }
+
+    footer {
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+        width: 100%;
+        height: 60px;
+        box-sizing: border-box;
+        background: #283548;
+        border-top: 1px solid #3e5674;
+
+        -webkit-border-bottom-right-radius: 10px;
+        -webkit-border-bottom-left-radius: 10px;
+        -moz-border-radius-bottomright: 10px;
+        -moz-border-radius-bottomleft: 10px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+
+        h2, h3 {
+            margin: 0;
+            padding: 8px 0 4px 0;
+            color: white;
+            font-size: 12px;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: .5px;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            white-space: nowrap;
+        }
+        h3 {
+            padding-top: 1.5px;
+            font-size: 12px;
+            font-weight: 400;
+            letter-spacing: .25px;
+            font-family: "Montserrat-Regular", sans-serif;
+
+            span {
+                opacity: 0.9;
+            }
+        }
+        div {
+            display: inline-block;
+
+            background: #00aeff;
+            box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
+            color: white;
+            font-family: "Montserrat-Regular", sans-serif;
+            border: 0px none transparent;
+            border-radius: 10px;
+            text-transform: uppercase;
+            text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.01);
+            font-size: 11px;
+            font-weight: bold;
+            padding: 3px 10px 3px 10px;
+
+        }
+    }
+
+}
