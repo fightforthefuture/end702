@@ -89,7 +89,7 @@
     new Countdown();
 
     document.getElementById('banner').addEventListener('click', function() {
-        window.location.href = 'https://www.decidethefuture.org';
+        window.location.href = '#';
     });
 
 })(document, window);
