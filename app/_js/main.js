@@ -3,7 +3,7 @@
 
 
     function Countdown() {
-        this.date = new Date(Date.UTC(2017, 12, 1, 15, 30, 0)).getTime();
+        this.date = new Date(Date.UTC(2017, 12, 31, 15, 30, 0)).getTime();
         this.interval = null;
         this.requestAnimationFrame = this.requestAnimationFrame.bind(this);
         this.targets = {};
