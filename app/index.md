@@ -6,7 +6,11 @@ layout: default
 Section 702 of FISA has allowed for mass surveillance programs, including PRISM and UPSTREAM, that have been used by the US government to warrantlessly collect and search the Internet communications of people all over the world. Absent a full reform, these organizations support sunsetting on December 31, 2017, as currently scheduled by the law.
 
 * ![Fight for the Future](/images/logos/fftf.png)
+* ![American Civil Liberties Union](/images/logos/aclu.png)
 * ![Restore the Fourth](/images/logos/rt4.png)
+* ![Human Rights Watch](/images/logos/hrw.png)
+* ![Access Now](/images/logos/accessnow.png)
+* ![Calyx](/images/logos/calyx.png)
 * ![Government Accountability Project](/images/logos/gap.png)
 * ![Roots Action](/images/logos/rootsaction.png)
 * ![X-lab](/images/logos/xlab.png)
