@@ -19,5 +19,6 @@ Section 702 of FISA has allowed for mass surveillance programs, including PRISM 
 * ![Bill of Rights Defense Committee/Defending Dissent Foundation](/images/logos/bordc.jpg)
 * ![Campaign for Liberty](/images/logos/campaignforliberty.png)
 * ![Niskanen Center](/images/logos/ncenter.png)
+* ![Electronic Frontier Foundation](/images/logos/efflogo.jpg)
 
 _For more information, contact [team@fightforthefuture.org](mailto:team@fightforthefuture.org)_
